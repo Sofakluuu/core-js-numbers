@@ -20,8 +20,7 @@
  */
 
 function getRectangleArea(width, height) {
-  const area = width * height;
-  return area;
+  return width * height;
 }
 
 /**
@@ -52,8 +51,7 @@ function getCircleCircumference(/* radius */) {
  *  -3, 3  => 0
  */
 function getAverage(value1, value2) {
-  const averege = value1 / 2 + value2 / 2;
-  return averege;
+  return value1 / 2 + value2 / 2;
 }
 
 /**
